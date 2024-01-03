@@ -4,7 +4,7 @@ MAINTAINER FT
 
 RUN set -eux; \
     apk add --update --no-cache \
-        nmap-nselibs
+        nmap
 RUN adduser -S user  -G root
 USER user
 WORKDIR /home/user
